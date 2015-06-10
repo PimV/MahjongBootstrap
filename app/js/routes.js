@@ -9,9 +9,15 @@ module.exports = function($stateProvider, $locationProvider, $urlRouterProvider)
 		title: 'Home'
 	});
 
-	$stateProvider.state('test', {
-		url: '/test',
-		templateUrl: 'views/test/index.html',
-		title: 'Test'
+	$stateProvider.state('games', {
+		url: '/games',
+		templateUrl: 'views/games/index.html',
+		title: 'Games'
+	});
+
+	$stateProvider.state('login', {
+		url: '/login',
+		templateUrl: 'views/login/index.html',
+		title: 'Login'
 	});
 };
